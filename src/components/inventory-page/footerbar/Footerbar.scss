@@ -1,0 +1,21 @@
+.inventory-footer{
+    position: fixed;
+    bottom: 0;
+    background: #EDEDED;
+    width: 100%;
+    .css-13zgqbm-MuiTabs-indicator{
+        background-color: #EDEDED;
+        height: 4px;
+    }
+    a{
+        text-transform: capitalize;
+        border-right: 1px solid #ccc;
+        &.Mui-selected{
+            background: white;
+            color: #1C1B19;
+            border: 0;
+            font-weight: bolder;
+        }
+    }
+   
+}

@@ -1,0 +1,12 @@
+#home-page {
+    .preferences-btn{
+        float: right;
+        &.rtl {
+            float: left;
+        }
+    }
+}
+#add-new-in,
+[data-id="inventory-row-hidden"]  {
+     display: none !important;
+}

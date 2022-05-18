@@ -1,0 +1,35 @@
+.sidebar-logo {
+    height: 30px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.cim-icon {
+    width: 25px;
+}
+
+#cim-sidebar {
+
+    .Mui-selected {
+        position: relative;
+        background: transparent;
+
+        &::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 1px solid white;
+            border-radius: 25px;
+            width: 30%;
+            height: 1.4px;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,55 @@
+#root{
+    height: 100%;
+}
+
+#global-loader-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.z-index {
+    z-index: 99999;
+}
+.inventory-app-theme--header{
+    color: white;
+    background: #70AD47;
+}
+.bold{
+    font-weight: bolder;
+}
+.italic{
+    font-style: italic;
+}
+.dark_green{
+    background: rgb(198, 224, 180);
+    color: rgb(0, 0, 0);
+}
+.light_green{
+    color: rgb(0, 0, 0);
+    background: rgb(226, 239, 218);
+}
+.format_1 {
+    color: rgb(250, 0, 0);
+    background: rgb(242, 242, 242);
+}
+.format_2{
+    color: rgb(176, 22, 52);
+    background: rgb(255, 199, 206);
+}
+.format_3 {
+    color: rgb(255, 255, 102);
+    background: rgb(0, 0, 0);
+}
+.format_4 {
+    color: rgb(166, 121, 55);
+    background: rgb(255, 235, 156);
+}
+.edit-mode{
+    color: rgb(0, 0, 0);
+    background: rgb(226, 239, 218);
+}

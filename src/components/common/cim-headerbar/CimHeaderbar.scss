@@ -1,0 +1,42 @@
+.inventory-header {
+    height: 50px;
+    background-color: #EDEDED;
+    display: flex;
+    flex-wrap: nowrap;
+    .grid-control {
+        list-style: none;
+        display: flex;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        margin-right: auto;
+       > li {
+            display: inline-flex;
+            position: relative;
+            &::after{
+                content: '';
+                position: absolute;
+                background: #ccc;
+                height: 100%;
+                width: 1px;
+                right: 0;
+                top: 0;
+                z-index: 1;
+            }
+           > div{
+                z-index: 2;
+            }
+        }
+    }
+    .system-info{
+        @extend .grid-control;
+        margin-right: 0;
+        margin-left: auto;
+        > li {
+            &::after{
+                right: unset;
+                left: 0;
+            }
+        }
+    }
+}

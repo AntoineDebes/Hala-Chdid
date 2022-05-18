@@ -1,0 +1,14 @@
+.branch-form-control {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .cim-branch-icon {
+        width: 20px;
+        margin: 12px;
+    }
+
+    .current-branch {
+        padding-right: 25px;
+    }
+}

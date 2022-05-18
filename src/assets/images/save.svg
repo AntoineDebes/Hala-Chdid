@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <filter id="Rectangle_71" x="0" y="0" width="41" height="41" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Component_21_1" data-name="Component 21 – 1" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_71)">
+      <rect id="Rectangle_71-2" data-name="Rectangle 71" width="23" height="23" rx="3" transform="translate(9 6)" fill="#00b75c"/>
+    </g>
+    <g id="Component_24_1" data-name="Component 24 – 1" transform="translate(6.203 7.505)">
+      <g id="Group_93" data-name="Group 93" transform="translate(0 0)">
+        <path id="Path_64" data-name="Path 64" d="M11.431.661a.921.921,0,0,1-.268.4Q7.808,4.414,4.456,7.769a.647.647,0,0,1-.368.215.587.587,0,0,1-.522-.19Q2.133,6.355.7,4.92C.52,4.744.341,4.57.168,4.391a.532.532,0,0,1-.134-.576.537.537,0,0,1,.458-.374.543.543,0,0,1,.476.167c.167.165.332.331.5.5Q2.685,5.324,3.9,6.543a.728.728,0,0,1,.071.1l.055.014a.629.629,0,0,1,.076-.123Q7.264,3.372,10.423.212A.6.6,0,0,1,10.9,0,.549.549,0,0,1,11.4.377l.031.083Z" transform="translate(0 0)" fill="#fff" stroke="#fff" stroke-width="0.3"/>
+      </g>
+    </g>
+  </g>
+</svg>
